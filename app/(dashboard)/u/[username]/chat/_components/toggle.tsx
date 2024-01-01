@@ -2,10 +2,11 @@
 
 import { toast } from "sonner";
 import { useTransition } from "react";
-type FieldTypes = "isChatEnabled" | "isChatDelayed" | "isChatFollowersOnly";
+
 import { Switch } from "@/components/ui/switch";
 import { updateStream } from "@/actions/stream";
 import { Skeleton } from "@/components/ui/skeleton";
+type FieldTypes = "isChatEnabled" | "isChatDelayed" | "isChatFollowersOnly";
 interface ToggleCardProps {
   label: string;
   value: boolean;

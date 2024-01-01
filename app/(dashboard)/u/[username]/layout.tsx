@@ -2,7 +2,8 @@ import { getSelfByUsername } from "@/lib/auth-user";
 import { redirect } from "next/navigation";
 import { Navbar } from "./_components/Navbar";
 import { Sidebar } from "./_components/Sidebar";
-import { Container } from "lucide-react";
+import { Container } from "./_components/container";
+//import { Container } from "lucide-react";
 
 interface CreatorLayoutProps {
   params: { username: string };
