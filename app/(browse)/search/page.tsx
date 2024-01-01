@@ -23,3 +23,4 @@ interface SearchPageProps {
       </div>
     )
   }
+  export default SearchPage;
